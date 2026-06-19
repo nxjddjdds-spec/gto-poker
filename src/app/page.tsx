@@ -1,6 +1,6 @@
 "use client";
 
-import { useEffect, useState } from "react";
+import { useState } from "react";
 import { useGTOStore } from "@/store/gtoStore";
 import { PositionSelector } from "@/components/PositionSelector";
 import { StackSelector } from "@/components/StackSelector";
@@ -18,9 +18,8 @@ export default function Home() {
   const mode = useGTOStore(s => s.mode);
   const setMode = useGTOStore(s => s.setMode);
   const stackDepth = useGTOStore(s => s.stackDepth);
-  const loadData = useGTOStore(s => s.loadData);
   const [sidebarOpen, setSidebarOpen] = useState(false);
-  useEffect(() => { loadData(stackDepth); }, []);
+
 
   return (
     <div className="min-h-screen bg-[#0f1117] text-white">

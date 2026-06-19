@@ -1,22 +1,14 @@
-{
+﻿{
   "name": "GTO德州扑克速查表",
   "short_name": "GTO速查",
   "description": "德州扑克 GTO 起手牌范围速查工具",
-  "start_url": "/",
+  "start_url": "/gto-poker/",
   "display": "standalone",
   "background_color": "#0f1117",
   "theme_color": "#0f1117",
   "orientation": "any",
   "icons": [
-    {
-      "src": "/icon-192.png",
-      "sizes": "192x192",
-      "type": "image/png"
-    },
-    {
-      "src": "/icon-512.png",
-      "sizes": "512x512",
-      "type": "image/png"
-    }
+    { "src": "/gto-poker/icon-192.png", "sizes": "192x192", "type": "image/png" },
+    { "src": "/gto-poker/icon-512.png", "sizes": "512x512", "type": "image/png" }
   ]
 }
